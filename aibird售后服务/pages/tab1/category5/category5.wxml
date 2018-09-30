@@ -1,0 +1,22 @@
+<view class='cate'>资料分类5</view>
+
+<view class='content' bindtap='massage1'>
+    <view class='title'>智能鸟介绍</view>
+    <view class='details'>
+        武汉智能鸟无人机有限公司，地处中国光谷武汉东湖高新技术开发区武大科技园，国家地球空间信息武汉产业基地，工厂面积1500平的.....
+    </view>
+</view>
+<view class='content' bindtap='massage1'>
+    <view class='title'>智能鸟介绍</view>
+    <view class='details'>
+        武汉智能鸟无人机有限公司，地处中国光谷武汉东湖高新技术开发区武大科技园，国家地球空间信息武汉产业基地，工厂面积1500平的.....
+    </view>
+</view>
+<view class='content' bindtap='massage1'>
+    <view class='title'>智能鸟介绍</view>
+    <view class='details'>
+        武汉智能鸟无人机有限公司，地处中国光谷武汉东湖高新技术开发区武大科技园，国家地球空间信息武汉产业基地，工厂面积1500平的.....
+    </view>
+</view>
+
+

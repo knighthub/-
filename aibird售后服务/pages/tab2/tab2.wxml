@@ -1,0 +1,35 @@
+<view>智能鸟售后服务工单提交系统</view>
+<view>========================</view>
+<form bindsubmit='formSubmit' bindreset='formReset'>
+    <view class='section'>
+        <view>客户名称：</view>
+        <input placeholder='please input here'></input>
+    </view>
+    <view>
+        <view>客户单位：</view>
+        <input placeholder='please input here'></input>
+    </view>
+    <view>
+        <view>联系方式：</view>
+        <input placeholder='please input here'></input>
+    </view>
+    <view>
+        <view>问题分类：</view>
+        <input placeholder='please input here'></input>
+    </view>
+    <view>
+        <view>问题描述：</view>
+        <textarea placeholder='please input here' auto-height='true'></textarea>
+    </view>
+    <view>
+        <view>提交时间：</view>
+        <picker mode='date' value='{{date}}' bindchange='bindDateChange'>
+            - {{date}}
+        </picker>
+
+    </view>
+    <view class='btn-area'>
+        <button form-type='submit'>提交</button>
+        <button form-type='reset'>清空</button>
+    </view>
+</form>

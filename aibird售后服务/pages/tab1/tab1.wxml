@@ -1,0 +1,16 @@
+<view class='page_row' bindtap='suo'>
+    <view class="search">
+        <view class="df search_arr">
+            <icon class="searchcion" size='20' type='search'></icon>
+            <input class="" disabled placeholder="请输入关键字"  /> </view>
+    </view>
+    <view class='suosuo'>搜索</view>
+</view>
+
+
+
+<button type='default' size='default' bindtap='category1'>资料分类1</button>
+<button type='default' size='default' bindtap='category2'>资料分类2</button>
+<button type='default' size='default' bindtap='category3'>资料分类3</button>
+<button type='default' size='default' bindtap='category4'>资料分类4</button>
+<button type='default' size='default' bindtap='category5'>资料分类5</button>
